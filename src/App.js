@@ -7,6 +7,9 @@ import PrevEvent from './components/PrevEvent';
 import Description from './components/Description';
 import Sponsors from './components/Sponsors';
 import TimeTable from './components/TimeTable';
+import FAQ from './components/FAQ';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
 import FAQ from './FAQ';
@@ -29,7 +32,8 @@ const App = () => (
       <div style={{marginBottom: "500px"}} />
       <TimeTable />
       <div style={{marginBottom: "500px"}} />
-
+      <FAQ />
+      <div style={{marginBottom: "500px"}} />
     </div>
   </div>
 );

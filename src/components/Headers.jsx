@@ -35,7 +35,11 @@ const HamburgerHeader = () => (
     }}>
         <p style={{margin: '15px'}}> MLH Logo </p>
         <p style={{margin: '15px'}}> OxfordHack Logo </p>
-        <Overlay />
+        <Overlay>
+            <p>
+                Bottom text
+            </p>
+        </Overlay>
     </div>
 )
 

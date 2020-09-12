@@ -3,7 +3,7 @@ import './css/App.css';
 
 import Navbar from './components/Navbar'; 
 import LandingScreen from './components/LandingScreen';
-import PrevEvent from './components/PrevEvent';
+import About from './components/About';
 import Description from './components/Description';
 import Sponsors from './components/Sponsors';
 import TimeTable from './components/TimeTable';
@@ -21,7 +21,7 @@ const App = () => (
       <Navbar />
       <LandingScreen />
       <div style={{marginBottom: "500px"}} />
-      <PrevEvent />
+      <About />
       <div style={{marginBottom: "500px"}} />
       <Description />
       <div style={{marginBottom: "500px"}} />

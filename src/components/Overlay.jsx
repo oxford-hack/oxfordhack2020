@@ -4,7 +4,7 @@ import '../css/Overlay.css'
 import {Animate} from 'react-simple-animate';
 import {HamburgerButton} from 'react-hamburger-button';
 
-const Overlay = () => {
+const Overlay = (props) => {
     const [play, setPlay] = useState();
     
     return (
@@ -32,9 +32,7 @@ const Overlay = () => {
             >
                 <div style={{minHeight: "120vh", minWidth: "120vw", backgroundColor: "rgba(0, 0, 0, 0.3)", zIndex: "100", position: "absolute", display: "table"}}>
                     <div style={{display: "table-cell", verticalAlign: "top", textAlign: "right", padding: "130px 50px 0px 0px"}}>
-                        <p>
-                            Bottom text
-                        </p>
+                        {props.children}
                     </div>
                 </div>
             </Animate>

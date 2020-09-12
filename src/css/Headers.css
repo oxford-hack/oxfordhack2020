@@ -1,0 +1,22 @@
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100%
+}
+
+.bar {
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.element {
+  margin: 15px;
+}
+
+.mlh-element {
+  margin: 15px 15px 15px 50px;
+}

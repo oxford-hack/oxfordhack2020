@@ -1,43 +1,31 @@
 import React, { Component } from 'react';
 import Overlay from './Overlay';
+import '../css/Headers.css'
+import '../css/App.css'
 
 
 const FullHeader = () => (
-        <div style={{
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'space-between',
-            flexDirection: 'row',
-            position: "fixed",
-            width: "100%"
-        }}>
-            <p style={{margin: '15px'}}> OxfordHack Logo </p>
-            <div style={{justifyContent: 'right', display: 'flex', flexDirection: 'row'}}>
-                <p style={{margin: '15px'}}> About </p>
-                <p style={{margin: '15px'}}> Event </p>
-                <p style={{margin: '15px'}}> Sponsors </p>
-                <p style={{margin: '15px'}}> Committee </p>
-                <p style={{margin: '15px'}}> FAQ </p>
-                <p style={{margin: '15px'}}> Register Now! </p>
-                <p style={{margin: '15px 15px 15px 50px'}}> MLH Logo </p>
-            </div>
+    <div className="header">
+        <p className="element"> OxfordHack Logo </p>
+        <div className="bar">
+            <p className="element"> About </p>
+            <p className="element"> Event </p>
+            <p className="element"> Sponsors </p>
+            <p className="element"> Committee </p>
+            <p className="element"> FAQ </p>
+            <p className="element"> Register Now! </p>
+            <p className="mlh-element"> MLH Logo </p>
         </div>
+    </div>
 );
 
 const HamburgerHeader = () => (
-    <div style={{
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexDirection: 'row',
-        position: "fixed",
-        width: "100%"
-    }}>
-        <p style={{margin: '15px'}}> MLH Logo </p>
-        <p style={{margin: '15px'}}> OxfordHack Logo </p>
+    <div className="header">
+        <p className="element"> MLH Logo </p>
+        <p className="element"> OxfordHack Logo </p>
         <Overlay />
     </div>
-)
+);
 
 export {
     FullHeader,

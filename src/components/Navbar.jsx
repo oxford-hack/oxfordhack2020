@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Navbar.css';
+import '../css/App.css'
 
 import { useMediaQuery } from 'react-responsive'
 
@@ -10,7 +11,7 @@ const Navbar = () => {
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
     
     return (
-        <div class="navbar" id="myNavbar" style={{position: 'sticky', top: '0', zIndex: '100'}}>
+        <div class="navbar" id="myNavbar" className="navbar">
             {isDesktop ? (<FullHeader />) : (<HamburgerHeader /> )}
         </div>
     );

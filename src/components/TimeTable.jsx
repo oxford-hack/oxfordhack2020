@@ -1,15 +1,15 @@
 import React from 'react';
 
+import '../css/TimeTable.css';
+import '../css/App.css'
 
 const TimeTable = () => (
-    <div style={{color: "white", padding: "50px"}}>
-        <h2 style={{textAlign: "left", marginBottom: "50px"}}>
-            EVENT
-        </h2>
-        <p>
+    <div className="default">
+        <div className="title">EVENT</div>
+        <p className="subheadings">
             Event timetable to be determined. <br/> Stay tuned for updates!
         </p>
     </div>
-)
+);
 
 export default TimeTable;

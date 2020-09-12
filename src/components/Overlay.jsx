@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/Overlay.css'
+import '../css/App.css'
 
 import {Animate} from 'react-simple-animate';
 import {HamburgerButton} from 'react-hamburger-button';

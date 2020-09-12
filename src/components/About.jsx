@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/About.css'
-import '../css/App.css'
+import Video from './Youtube.jsx';
+
 
 const About = () => (
     <div className="default">
@@ -13,9 +13,10 @@ const About = () => (
                     </p>
                 </div>
                 <div className="col-lg-6 col-md-12 order-lg-last order-first">
-                    <p className="example-media">
-                        Insert video here
-                    </p>
+                    <Video
+                        title="Previous Event"
+                        src="https://www.youtube-nocookie.com/embed/FqBxnolqFpk"
+                    />
                 </div>
             </div>
         </div>

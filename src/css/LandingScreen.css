@@ -1,0 +1,12 @@
+.landing {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landingvideo p {
+    margin-left: auto;
+    margin-right: auto;
+    
+}

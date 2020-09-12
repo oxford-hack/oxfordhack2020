@@ -4,6 +4,8 @@ import { useMediaQuery } from 'react-responsive'
 
 import RegisterButton from './RegisterButton';
 
+import landing_video from '../media/twoo_landing_cropped.webm';
+
 const LandingScreen = () => {
 
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
@@ -11,12 +13,20 @@ const LandingScreen = () => {
     return (
         <div style={{color: 'white', paddingTop: "50px"}} className="landing">
             {isDesktop ? (
-                <p style={{width: '100%', paddingTop: "30%", backgroundColor: 'blue'}}>
-                    Hi, I'm a desktop video
+                <p style={{width: '100%'}}>
+                    <video autoPlay loop width={'50%'}>
+                        <source src={landing_video}
+                                type="video/webm"/>
+                                
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
                 </p>) : (
-                    <p style={{width: '100%', paddingTop: "56.25%", backgroundColor: 'blue'}}>
-                    Hi, I'm a mobile video
-                </p>)
+                <video autoPlay loop width={'90%'} style={{paddingTop: '50px'}}>
+                    <source src={landing_video}
+                            type="video/webm"/>
+                            
+                    Sorry, your browser doesn't support embedded videos.
+                </video>)
             }
             <p>
                 LET YOUR IDEAS TAKE FLIGHT, <br/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive'
+import Video from './Youtube.tsx';
 
 
 const About = () => {
@@ -13,9 +14,10 @@ const About = () => {
                 </p>
             </div>
             <div style={{width: isDesktop ? '50%': '100%'}}>
-                <p style={{paddingTop: "56.25%", margin: "20px", backgroundColor: 'blue'}}>
-                    Insert video here
-                </p>
+                <Video
+                    title="Previous Event"
+                    src="https://www.youtube-nocookie.com/embed/FqBxnolqFpk"
+                />
             </div>
         </div>
     );

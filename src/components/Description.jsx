@@ -1,5 +1,7 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
+
+import faq_video from '../media/twoo_event_tmp.png'
 
 const Description = () => {
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
@@ -7,8 +9,8 @@ const Description = () => {
     return (
         <div style={{display: "flex",flexDirection: "row", color: "white"}}>
             {isDesktop && (
-                <div style={{display: "flex", width: "50%", minHeight: "500px", backgroundColor: "blue", alignItems: "center", justifyContent: "center"}}>
-                    <p>Why hello there, I'm supposed to be a Twoo</p>
+                <div style={{display: "flex", width: "50%", minHeight: "500px", alignItems: "center", justifyContent: "center"}}>
+                    <img src={faq_video} alt="Bottom text"/>
                 </div>
             )}
 

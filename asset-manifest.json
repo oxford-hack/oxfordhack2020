@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/oxfordhack2020/static/css/main.c212b56e.chunk.css",
+    "main.js": "/oxfordhack2020/static/js/main.d5bb9174.chunk.js",
+    "main.js.map": "/oxfordhack2020/static/js/main.d5bb9174.chunk.js.map",
+    "runtime-main.js": "/oxfordhack2020/static/js/runtime-main.77d8e6f3.js",
+    "runtime-main.js.map": "/oxfordhack2020/static/js/runtime-main.77d8e6f3.js.map",
+    "static/js/2.c6fa2861.chunk.js": "/oxfordhack2020/static/js/2.c6fa2861.chunk.js",
+    "static/js/2.c6fa2861.chunk.js.map": "/oxfordhack2020/static/js/2.c6fa2861.chunk.js.map",
+    "index.html": "/oxfordhack2020/index.html",
+    "precache-manifest.824059a63eef362fb14c0b741a10daab.js": "/oxfordhack2020/precache-manifest.824059a63eef362fb14c0b741a10daab.js",
+    "service-worker.js": "/oxfordhack2020/service-worker.js",
+    "static/css/main.c212b56e.chunk.css.map": "/oxfordhack2020/static/css/main.c212b56e.chunk.css.map",
+    "static/js/2.c6fa2861.chunk.js.LICENSE.txt": "/oxfordhack2020/static/js/2.c6fa2861.chunk.js.LICENSE.txt",
+    "static/media/no.png": "/oxfordhack2020/static/media/no.ca399e72.png",
+    "static/media/yes.png": "/oxfordhack2020/static/media/yes.2f1f1920.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77d8e6f3.js",
+    "static/js/2.c6fa2861.chunk.js",
+    "static/css/main.c212b56e.chunk.css",
+    "static/js/main.d5bb9174.chunk.js"
+  ]
+}

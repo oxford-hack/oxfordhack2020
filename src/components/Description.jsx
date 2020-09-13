@@ -1,22 +1,24 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive'
+import '../css/Description.css'
+import '../css/App.css'
+import faq_video from '../media/twoo_event_tmp.png'
 
-const Description = () => {
-    const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
-
-    return (
-        <div style={{display: "flex",flexDirection: "row", color: "white"}}>
-            {isDesktop && (
-                <div style={{display: "flex", width: "50%", minHeight: "500px", backgroundColor: "blue", alignItems: "center", justifyContent: "center"}}>
-                    <p>Why hello there, I'm supposed to be a Twoo</p>
+const Description = () => (
+    <div className="default">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div className="col-lg-6 col-md-12 order-first">
+                    <img src={faq_video} alt="Bottom text" width="50%"/>
                 </div>
-            )}
-
-            <div style={{width: isDesktop ? "50%" : "100%", minHeight: "500px", alignItems: "center", justifyContent: "center", display: "flex"}}>
-                <p>Truly the most lorem of ipsums.</p>
+                <div className="col-lg-6 col-md-12 order-last">
+                    <div className="title">OXFORD HACK 2020 ONLINE</div>
+                    <p className="main-text">
+                        Truly the most lorem of ipsums.
+                    </p>
+                </div>
             </div>
         </div>
-    );
-}
+    </div>
+);
 
 export default Description;

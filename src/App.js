@@ -21,17 +21,23 @@ const App = () => (
   <div className="App">
     <div className="App-body">
       <Navbar />
-      <a id="landingscreen"><LandingScreen /></a>
+      <a href="/" id="landingscreen" style={{padding:"100px"}}> </a>
+      <LandingScreen />
       <div style={{marginBottom: "500px"}} />
-      <a id="about" style={{padding:"100px"}}><About /></a>
+      <a href="/" id="about" style={{padding:"100px"}}> </a>
+      <About />
       <div style={{marginBottom: "500px"}} />
-      <a id="event" style={{padding:"100px"}}><Event /></a>
+      <a href="/" id="event" style={{padding:"100px"}}> </a>
+      <Event />
       <div style={{marginBottom: "500px"}} />
-      <a id="timetable" style={{padding:"100px"}}><TimeTable /></a>
+      <a href="/" id="timetable" style={{padding:"100px"}}> </a>
+      <TimeTable />
       <div style={{marginBottom: "500px"}} />
-      <a id="faq" style={{padding:"100px"}}><FAQ /></a>
+      <a href="/" id="faq" style={{padding:"100px"}}> </a>
+      <FAQ />
       <div style={{marginBottom: "500px"}} />
-      <a id="sponsors" style={{padding:"100px"}}><Sponsors /></a>
+      <a href="/" id="sponsors" style={{padding:"100px"}}> </a>
+      <Sponsors />
       <div style={{marginBottom: "500px"}} />
     </div>
   </div>

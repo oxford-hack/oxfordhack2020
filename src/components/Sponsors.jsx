@@ -1,10 +1,6 @@
 import React from 'react';
-import Crossfade from './Crossfade';
 import '../css/Sponsors.css'
 import '../css/App.css'
-
-import yes from '../media/yes.png'
-import no from '../media/no.png'
 
 const Sponsors = () => (
     <div classname="default">

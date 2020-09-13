@@ -7,7 +7,7 @@ import LandingScreen from './components/LandingScreen';
 import About from './components/About';
 import Event from './components/Event';
 import Sponsors from './components/Sponsors';
-import TimeTable from './components/TimeTable';
+import TimeTable from './components/Timetable';
 import FAQ from './components/FAQ';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

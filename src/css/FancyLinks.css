@@ -9,7 +9,7 @@ a.fancy, a.fancy:visited, a.fancy:hover, a.fancy:active {
 }
 
 a.fancy:hover {
-    color: #ffffff;
+    color: #f3b24f;
 }
 
 a.before:before, a.after:after {
@@ -31,7 +31,7 @@ a.after:after {
 a.before:before, a.after:after {
     height: 2px;
     width: 0;
-    background: #ffffff;
+    background: #f3b24f;
 }
 
 a.first:after {

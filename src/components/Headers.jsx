@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Overlay from './Overlay';
 import '../css/Headers.css'
 import '../css/App.css'
@@ -26,6 +26,7 @@ const FullHeader = () => (
                 zIndex: '10000'}}
                 href="https://mlh.io/seasons/eu-2021/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=yellow"
                 target="_blank"
+                rel="noopener noreferrer"
             >
             <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-yellow.svg"
                 alt="Major League Hacking 2021 Hackathon Season"
@@ -45,6 +46,7 @@ const HamburgerHeader = () => (
             zIndex: '10000'}}
             href="https://mlh.io/seasons/eu-2021/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=yellow"
             target="_blank"
+            rel="noopener noreferrer"
         >
         <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-yellow.svg"
             alt="Major League Hacking 2021 Hackathon Season"

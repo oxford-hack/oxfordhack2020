@@ -3,7 +3,7 @@ import {useAccordionToggle} from 'react-bootstrap';
 import AccordionContext from 'react-bootstrap/AccordionContext';
 import '../css/ContextAwareToggle.css'
 
-const ContextAwareToggle = ({ children, eventKey}) => {
+const ContextAwareToggle = ({ children, eventKey, text}) => {
   const currentEventKey = useContext(AccordionContext);
 
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
@@ -11,6 +11,9 @@ const ContextAwareToggle = ({ children, eventKey}) => {
     );
 
   const isCurrentEventKey = currentEventKey === eventKey;
+  const nestedText = (React.Children.toArray(children)[0]).props.children;
+
+  console.log(nestedText)
 
   return (
     <button
@@ -19,7 +22,9 @@ const ContextAwareToggle = ({ children, eventKey}) => {
       type="button"
       onClick={decoratedOnClick}
     >
-      {children}
+      <h2>
+        {nestedText}{isCurrentEventKey ? ' -' : ' +'}
+      </h2>
     </button>
   );
 }

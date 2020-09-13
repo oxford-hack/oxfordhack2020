@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/App.css';
 
@@ -10,7 +11,10 @@ import Sponsors from './components/Sponsors';
 import TimeTable from './components/Timetable';
 import FAQ from './components/FAQ';
 
+import BackgroundEffect from './components/BackgroundEffect';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css";
 
 /*
 import Committee from './components/Committee';
@@ -19,21 +23,40 @@ import Footer from './components/Footer';
 
 const App = () => (
   <div className="App">
-    <div className="App-body">
+    <BackgroundEffect />
+    <div className="App-body" style={{position: 'relative'}}>
       <Navbar />
       <div style={{scrollBehavior: 'smooth'}}>
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
         <div id="landingscreen"><LandingScreen /></div>
-        <div style={{marginBottom: "500px"}} />
+        </ScrollAnimation>
+        <div style={{marginBottom: "15vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
         <div id="about"><About /></div>
-        <div style={{marginBottom: "500px"}} />
+        </ScrollAnimation>
+        <div style={{marginBottom: "15vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
         <div id="event"><Event /></div>
-        <div style={{marginBottom: "500px"}} />
+        </ScrollAnimation>
+        <div style={{marginBottom: "15vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
+        </ScrollAnimation>
         <div id="timetable"><TimeTable /></div>
-        <div style={{marginBottom: "500px"}} />
+        <div style={{marginBottom: "15vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
         <div id="faq"><FAQ /></div>
-        <div style={{marginBottom: "500px"}} />
+        </ScrollAnimation>
+        <div style={{marginBottom: "15vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
         <div id="sponsors"><Sponsors /></div>
-        <div style={{marginBottom: "500px"}} />
+        </ScrollAnimation>
+        <div style={{marginBottom: "15vw"}} />
       </div>
     </div>
   </div>

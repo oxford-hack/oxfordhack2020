@@ -16,7 +16,7 @@ const LandingScreen = () => {
         <div className="landing">
             {isDesktop ? (
                 <p style={{width: '100%'}}>
-                    <video autoPlay loop width={'45%'}>
+                    <video autoPlay loop width={'40%'}>
                         <source src={landing_video}
                                 type="video/webm"/>
                                 

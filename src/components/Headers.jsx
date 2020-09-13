@@ -14,7 +14,6 @@ const FullHeader = () => (
         <div className="bar">
             <a class="first after fancy" href="#about"><p className="element"> About </p></a>
             <a class="first after fancy" href="#event" onclick="return false;"><p className="element"> Event </p></a>
-            <a class="first after fancy" href="#timetable" onclick="return false;"><p className="element"> Timetable </p></a>
             <a class="first after fancy" href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
             <a class="first after fancy" href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
             <a class="first after fancy" href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>
@@ -58,7 +57,6 @@ const HamburgerHeader = () => (
             <a class="first after fancy" href="#landingscreen"><p className="element"> Home </p></a>
             <a class="first after fancy" href="#about"><p className="element"> About </p></a>
             <a class="first after fancy" href="#event" onclick="return false;"><p className="element"> Event </p></a>
-            <a class="first after fancy" href="#timetable" onclick="return false;"><p className="element"> Timetable </p></a>
             <a class="first after fancy" href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
             <a class="first after fancy" href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
             <a class="first after fancy" href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>

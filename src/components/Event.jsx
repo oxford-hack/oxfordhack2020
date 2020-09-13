@@ -13,7 +13,7 @@ const Description = () => (
                 <div className="col-lg-6 col-md-12 order-last">
                     <div className="title">OXFORD HACK 2020 ONLINE</div>
                     <p className="main-text">
-                        Truly the most lorem of ipsums.
+                        Oxford Hack 2020 will be the official Oxford student hackathon this year. We want to bring together as many like minded people together with the purpose of creating cool things. Though we can’t be together in person, in 24 hours we will provide our hackers with APIs, mentoring and prize categories to provide direction. We also want to stay engaged with our community despite the distance, so we will run unrelated but fun activities. The aim of these is to help teams come together, provide a break from work and simulate the random interactions that happen when a Hackathon is physical.
                     </p>
                 </div>
             </div>

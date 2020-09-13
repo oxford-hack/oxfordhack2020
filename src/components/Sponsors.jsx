@@ -9,20 +9,10 @@ import no from '../media/no.png'
 const Sponsors = () => (
     <div classname="default">
         <div className="title">SPONSORS</div>
-        <div class="container">
+        <div class="subheadings">
             <div class="row align-items-center justify-content-center">
-                <div className="col-3">
-                    <img src={yes} alt="nicememe.website" className="image"/>
-                </div>
-                <div className="col-3">
-                    <img src={yes} alt="nicememe.website" className="image"/>
-                </div>
-                <div className="col-3">
-                    <img src={yes} alt="nicememe.website" className="image"/>
-                </div>
-                <div className="col-3">
-                    <img src={yes} alt="nicememe.website" className="image"/>
-                </div>
+                Stay tuned for updates about this year's sponsors! <br/>
+                Interested in sponsoring us? Send us an email at sponsorship@oxfordhack.co.uk!
             </div>
         </div>
     </div>

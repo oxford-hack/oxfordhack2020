@@ -7,7 +7,10 @@ import LandingScreen from './components/LandingScreen';
 import About from './components/About';
 import Event from './components/Event';
 import Sponsors from './components/Sponsors';
+import TimeTable from './components/TimeTable';
 import FAQ from './components/FAQ';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
 import Committee from './components/Committee';
@@ -24,9 +27,10 @@ const App = () => (
       <div style={{marginBottom: "500px"}} />
       <Event />
       <div style={{marginBottom: "500px"}} />
+      <FAQ />
+      <div style={{marginBottom: "500px"}} />
       <Sponsors />
       <div style={{marginBottom: "500px"}} />
-
     </div>
   </div>
 );

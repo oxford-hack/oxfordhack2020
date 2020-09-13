@@ -11,8 +11,8 @@ const FullHeader = () => (
         <a href="#landingscreen" onclick="return false;"><img src={logo} alt="Logo" style={{maxHeight: "75px"}} /></a>
         <div className="bar">
             <a href="#about"><p className="element"> About </p></a>
-            <a href="#digithon" onclick="return false;"><p className="element"> Digithon </p></a>
             <a href="#event" onclick="return false;"><p className="element"> Event </p></a>
+            <a href="#timetable" onclick="return false;"><p className="element"> Timetable </p></a>
             <a href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
             <a href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
             <a href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>
@@ -52,8 +52,8 @@ const HamburgerHeader = () => (
         <a href="#landingscreen" onclick="return false;"><img src={logo} alt="Logo" style={{maxHeight: "50px", padding: "5px"}} /></a>
         <Overlay>
             <a href="#about"><p className="element"> About </p></a>
-            <a href="#digithon" onclick="return false;"><p className="element"> Digithon </p></a>
             <a href="#event" onclick="return false;"><p className="element"> Event </p></a>
+            <a href="#timetable" onclick="return false;"><p className="element"> Timetable </p></a>
             <a href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
             <a href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
             <a href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>

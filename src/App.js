@@ -5,15 +5,16 @@ import './css/App.css';
 import Navbar from './components/Navbar'; 
 import LandingScreen from './components/LandingScreen';
 import About from './components/About';
-import Description from './components/Description';
+import Event from './components/Event';
 import Sponsors from './components/Sponsors';
-import TimeTable from './components/TimeTable';
+import TimeTable from './components/Timetable';
+import FAQ from './components/FAQ';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
-import FAQ from './FAQ';
-import Committee from './Committee';
-import Footer from './Footer';
-
+import Committee from './components/Committee';
+import Footer from './components/Footer';
 */ 
 
 const App = () => (
@@ -24,13 +25,14 @@ const App = () => (
       <div style={{marginBottom: "500px"}} />
       <a id="about" style={{padding:"100px"}}><About /></a>
       <div style={{marginBottom: "500px"}} />
-      <a id="digithon" style={{padding:"100px"}}><Description /></a>
+      <a id="event" style={{padding:"100px"}}><Event /></a>
       <div style={{marginBottom: "500px"}} />
-      <a id="event" style={{padding:"100px"}}><TimeTable /></a>
+      <a id="timetable" style={{padding:"100px"}}><TimeTable /></a>
+      <div style={{marginBottom: "500px"}} />
+      <a id="faq" style={{padding:"100px"}}><FAQ /></a>
       <div style={{marginBottom: "500px"}} />
       <a id="sponsors" style={{padding:"100px"}}><Sponsors /></a>
       <div style={{marginBottom: "500px"}} />
-
     </div>
   </div>
 );

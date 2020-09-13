@@ -8,14 +8,15 @@ import logo from '../media/logo.png'
 
 const FullHeader = () => (
     <div className="header">
-        <img src={logo} alt="Logo" style={{maxHeight: "75px"}} />
+        <a href="#landingscreen" onclick="return false;"><img src={logo} alt="Logo" style={{maxHeight: "75px"}} /></a>
         <div className="bar">
-            <p className="element"> About </p>
-            <p className="element"> Event </p>
-            <p className="element"> Sponsors </p>
-            <p className="element"> Committee </p>
-            <p className="element"> FAQ </p>
-            <p className="element"> Register </p>
+            <a href="#about"><p className="element"> About </p></a>
+            <a href="#digithon" onclick="return false;"><p className="element"> Digithon </p></a>
+            <a href="#event" onclick="return false;"><p className="element"> Event </p></a>
+            <a href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
+            <a href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
+            <a href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>
+            <a href="#register" onclick="return false;"><p className="element"> Register </p></a>
             <a id="mlh-trust-badge" style={{
                 maxWidth: '100px',
                 minWidth: '60px',
@@ -35,12 +36,28 @@ const FullHeader = () => (
 
 const HamburgerHeader = () => (
     <div className="header">
-        <p className="element"> MLH Logo </p>
-        <img src={logo} alt="Logo" style={{maxHeight: "50px", padding: "5px"}} />
+        <a id="mlh-trust-badge" style={{
+            maxWidth: '100px',
+            minWidth: '60px',
+            width:'10%',
+            zIndex: '10000'}}
+            href="https://mlh.io/seasons/eu-2021/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=yellow"
+            target="_blank"
+        >
+        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-yellow.svg"
+            alt="Major League Hacking 2021 Hackathon Season"
+            style={{width: '100%'}}
+        />
+        </a>
+        <a href="#landingscreen" onclick="return false;"><img src={logo} alt="Logo" style={{maxHeight: "50px", padding: "5px"}} /></a>
         <Overlay>
-            <p>
-                Bottom text
-            </p>
+            <a href="#about"><p className="element"> About </p></a>
+            <a href="#digithon" onclick="return false;"><p className="element"> Digithon </p></a>
+            <a href="#event" onclick="return false;"><p className="element"> Event </p></a>
+            <a href="#committee" onclick="return false;"><p className="element"> Committee </p></a>
+            <a href="#faq" onclick="return false;"><p className="element"> FAQ </p></a>
+            <a href="#sponsors" onclick="return false;"><p className="element"> Sponsors </p></a>
+            <a href="#register" onclick="return false;"><p className="element"> Register </p></a>
         </Overlay>
     </div>
 );

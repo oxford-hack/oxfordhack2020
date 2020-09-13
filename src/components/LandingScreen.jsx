@@ -4,6 +4,7 @@ import '../css/App.css'
 import { useMediaQuery } from 'react-responsive'
 
 import RegisterButton from './RegisterButton';
+import LandingArrow from './LandingArrow';
 
 import landing_video from '../media/twoo_landing_cropped.webm';
 
@@ -15,7 +16,7 @@ const LandingScreen = () => {
         <div className="landing">
             {isDesktop ? (
                 <p style={{width: '100%'}}>
-                    <video autoPlay loop width={'50%'}>
+                    <video autoPlay loop width={'45%'}>
                         <source src={landing_video}
                                 type="video/webm"/>
                                 
@@ -37,9 +38,7 @@ const LandingScreen = () => {
             {/*TODO:why do we only allow this for mobile??*/}
             {!isDesktop && <RegisterButton place="front" />}
             {!isDesktop && <p style={{marginBlockEnd: "0"}}>Find out more</p>}
-            <p style={{backgroundColor: 'orange'}}>
-                Hi, I'm a clickable arrow
-            </p>
+            <LandingArrow />
         </div>
     );
 }

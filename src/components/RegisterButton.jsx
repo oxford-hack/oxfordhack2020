@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const RegisterButton = (props) => (
-    <a href="#">
+    <a href="/">
         Register now!
     </a>
 );

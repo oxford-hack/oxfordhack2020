@@ -31,7 +31,7 @@ const Overlay = (props) => {
                     transform: "translateX(-100vw) translateY(-10vw)"
                 }}
             >
-                <div style={{minHeight: "120vh", minWidth: "120vw", backgroundColor: "rgba(0, 0, 0, 0.3)", zIndex: "100", position: "absolute", display: "table"}}>
+                <div style={{minHeight: "120vh", minWidth: "120vw", backgroundColor: "rgba(0, 0, 0, 0.9)", zIndex: "100", position: "absolute", display: "table"}}>
                     <div style={{display: "table-cell", verticalAlign: "top", textAlign: "right", padding: "130px 50px 0px 0px"}}>
                         {props.children}
                     </div>

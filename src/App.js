@@ -5,7 +5,7 @@ import './css/App.css';
 import Navbar from './components/Navbar'; 
 import LandingScreen from './components/LandingScreen';
 import About from './components/About';
-import Description from './components/Description';
+import Event from './components/Event';
 import Sponsors from './components/Sponsors';
 import TimeTable from './components/TimeTable';
 import FAQ from './components/FAQ';
@@ -13,10 +13,8 @@ import FAQ from './components/FAQ';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
-import FAQ from './FAQ';
-import Committee from './Committee';
-import Footer from './Footer';
-
+import Committee from './components/Committee';
+import Footer from './components/Footer';
 */ 
 
 const App = () => (
@@ -27,9 +25,7 @@ const App = () => (
       <div style={{marginBottom: "500px"}} />
       <About />
       <div style={{marginBottom: "500px"}} />
-      <Description />
-      <div style={{marginBottom: "500px"}} />
-      <TimeTable />
+      <Event />
       <div style={{marginBottom: "500px"}} />
       <FAQ />
       <div style={{marginBottom: "500px"}} />

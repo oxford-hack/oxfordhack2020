@@ -45,7 +45,6 @@ const App = () => (
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
         </ScrollAnimation>
-        <div id="timetable"><TimeTable /></div>
         <div style={{marginBottom: "15vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>

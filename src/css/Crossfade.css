@@ -1,17 +1,18 @@
 .cf {
   position:relative;
-  height:281px;
-  width:450px;
+  height:200px;
+  width:200px;
   margin:0 auto;
+  margin: 1rem;
 }
 
 .cf img {
   position:absolute;
   left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ;
+  -moz-transition: opacity 1s ;
+  -o-transition: opacity 1s ;
+  transition: opacity 1s ;
 }
 
 .cf img.top:hover {
@@ -19,7 +20,7 @@
 }
 
 .default-image {
-  height: 350px;
-  width: 350px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }

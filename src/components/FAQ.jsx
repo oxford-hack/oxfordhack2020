@@ -6,9 +6,10 @@ import ContextAwareToggle from './ContextAwareToggle';
 import twoo_faq from '../media/twoo_faq.webm';
 
 const FAQ = () => {
+    // const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
 
     return (
-        <div className="container">
+        <div className="container" style={{textJustify: "center"}}>
 
             <div class="row align-items-center justify-content-center">
                  <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" defaultActiveKey="0">

@@ -59,11 +59,16 @@ body {
 }
 
 .faq-question h2 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    text-align: center;
+    text-align-last: center;
+
 }
 
 .card-body {
     padding: 1px;
+    display: flex;
+    justify-content: center;
 }
 
 .main-text {

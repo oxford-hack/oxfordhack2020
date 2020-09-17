@@ -3,7 +3,7 @@ import '../css/Sponsors.css'
 import '../css/App.css'
 
 const Sponsors = () => (
-    <div classname="default">
+    <div className="default">
         <div className="title">SPONSORS</div>
         <div class="subheadings">
             <div class="row align-items-center justify-content-center">

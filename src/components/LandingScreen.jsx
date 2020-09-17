@@ -16,14 +16,14 @@ const LandingScreen = () => {
         <div className="landing">
             {isDesktop ? (
                 <p style={{width: '100%'}}>
-                    <video autoPlay loop width={'40%'}>
+                    <video autoPlay loop muted width={'40%'}>
                         <source src={landing_video}
                                 type="video/webm"/>
                                 
                         Sorry, your browser doesn't support embedded videos.
                     </video>
                 </p>) : (
-                <video autoPlay loop width={'90%'} style={{paddingTop: '50px'}}>
+                <video autoPlay loop muted width={'90%'} style={{paddingTop: '50px'}}>
                     <source src={landing_video}
                             type="video/webm"/>
                             

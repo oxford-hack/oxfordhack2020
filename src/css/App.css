@@ -49,6 +49,23 @@ body {
     text-align-last: left;
 }
 
+.faq-question {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.faq-question h2 {
+    font-size: 1.5rem
+}
+
+.card-body {
+    padding: 1px;
+}
+
 .main-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -56,6 +73,7 @@ body {
     color: white;
     text-align: justify;
     text-align-last: center;
+    margin-bottom: 1.5rem;
 }
 
 .coding {

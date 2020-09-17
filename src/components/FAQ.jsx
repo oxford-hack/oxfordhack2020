@@ -14,11 +14,11 @@ const FAQ = () => {
                  <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" defaultActiveKey="0">
                   <div className="title">FREQUENTLY ASKED QUESTIONS</div>
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="0">
                         <p>What is Oxford Hack?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="0">
                       <Card.Body className="main-text">
                         <p>
@@ -28,11 +28,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="1">
                         <p>What is a digital Oxford Hack going to look like?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body className="main-text">
                         <p>
@@ -42,11 +42,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="2">
                         <p>What makes Oxford Hack special?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="2">
                       <Card.Body className="main-text">
                         <p>
@@ -57,11 +57,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="3">
                         <p>Can I participate in Oxford Hack?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="3">
                       <Card.Body className="main-text">
                         <p>
@@ -72,11 +72,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="4">
                         <p>Do I need to have a team beforehand?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="4">
                       <Card.Body className="main-text">
                         <p>
@@ -87,11 +87,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="5">
                         <p>Do I need to pay to participate?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="5">
                       <Card.Body className="main-text">
                         <p>
@@ -102,11 +102,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="6">
                         <p>What do I need to have to participate?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="6">
                       <Card.Body className="main-text">
                         <p>
@@ -117,11 +117,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="7">
                         <p>How many people can be in a team?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="7">
                       <Card.Body className="main-text">
                         <p>
@@ -132,11 +132,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="8">
                         <p>Can I start working on my project before the event?</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="8">
                       <Card.Body className="main-text">
                         <p>
@@ -147,11 +147,11 @@ const FAQ = () => {
                   </Card>
 
                   <Card style={{background:"none", border:"none"}}>
-                    <Card.Header className="subheadings" style={{background:"none", border: "none"}}>
+                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
                       <ContextAwareToggle eventKey="9">
                         <p>Error 404 question not found</p>
                       </ContextAwareToggle>
-                    </Card.Header>
+                    </Card.Body>
                     <Accordion.Collapse eventKey="9">
                       <Card.Body className="main-text">
                         <p>

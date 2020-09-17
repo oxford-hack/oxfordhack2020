@@ -24,6 +24,11 @@
   margin: 15px;
 }
 
+.element-big {
+  margin: 15px;
+  font-size: 30px;
+}
+
 .mlh-element {
   margin: 15px 15px 15px 50px;
 }

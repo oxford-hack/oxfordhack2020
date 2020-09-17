@@ -4,8 +4,8 @@ import '../css/App.css';
 
 const Crossfade = (props) => (
     <div class="cf">
-        <img class="bottom" src={props.img1} alt={props.alt} className="default-image"/>
-        <img class="top" src={props.img2} alt={props.alt} className="default-image"/>
+        <img src={props.img2} alt={props.alt} className="default-image bottom"/>
+        <img src={props.img1} alt={props.alt} className="default-image top"/>
     </div>
 );
 

@@ -6,7 +6,7 @@ const BackgroundEffect = () => {
     const size = useWindowSize();
     var stars = [];
 
-    for (var i = 0; i < Math.floor(Math.random() * 200); i++) {
+    for (var i = 0; i < 100 + Math.floor(Math.random() * 100); i++) {
         var xposition = Math.random();
         var yposition = Math.random();
         var star_type = Math.floor((Math.random() * 3) + 1);
@@ -15,13 +15,13 @@ const BackgroundEffect = () => {
             "y" : size.height * yposition,
         };
 
-        var newStar = (<div class={"star star-type" + star_type} style={{top: position.y, left: position.x}}></div>);
+        var newStar = (<div className={"star star-type" + star_type} key={"star "+i} style={{top: position.y, left: position.x}}></div>);
 
         stars.push(newStar);
     }
 
     return (
-        <div class='galaxy'>
+        <div className='galaxy'>
             {stars}
         </div>
     );

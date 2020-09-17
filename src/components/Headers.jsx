@@ -1,5 +1,6 @@
 import React from 'react';
 import Overlay from './Overlay';
+import RegisterButton from './RegisterButton';
 import '../css/Headers.css'
 import '../css/App.css'
 import '../css/FancyLinks.css';
@@ -17,7 +18,7 @@ const FullHeader = () => (
             <a class="first after fancy" href="#committee" onClick="return false;"><p className="element"> Committee </p></a>
             <a class="first after fancy" href="#faq" onClick="return false;"><p className="element"> FAQ </p></a>
             <a class="first after fancy" href="#sponsors" onClick="return false;"><p className="element"> Sponsors </p></a>
-            <a class="first after fancy" href="#register" onClick="return false;"><p className="element"> Register </p></a>
+            <RegisterButton />
             <a id="mlh-trust-badge" style={{
                 maxWidth: '100px',
                 minWidth: '60px',
@@ -52,15 +53,15 @@ const HamburgerHeader = () => (
             style={{width: '100%'}}
         />
         </a>
-        <a href="#landingscreen" onClick={() => false}><img src={logo} alt="Logo" style={{maxHeight: "50px", padding: "5px"}} /></a>
+        <a href="#landingscreen" onClick={() => false}><img src={logo} alt="Logo" style={{maxHeight: "70px", padding: "5px"}} /></a>
         <Overlay>
-            <a className="first after fancy" href="#landingscreen"><p className="element"> Home </p></a>
-            <a className="first after fancy" href="#about"><p className="element"> About </p></a>
-            <a className="first after fancy" href="#event" onClick="return false;"><p className="element"> Event </p></a>
-            <a className="first after fancy" href="#committee" onClick="return false;"><p className="element"> Committee </p></a>
-            <a className="first after fancy" href="#faq" onClick="return false;"><p className="element"> FAQ </p></a>
-            <a className="first after fancy" href="#sponsors" onClick="return false;"><p className="element"> Sponsors </p></a>
-            <a className="first after fancy" href="#register" onClick="return false;"><p className="element"> Register </p></a>
+            <a className="first after fancy" href="#landingscreen"><p className="element-big"> Home </p></a>
+            <a className="first after fancy" href="#about"><p className="element-big"> About </p></a>
+            <a className="first after fancy" href="#event" onClick="return false;"><p className="element-big"> Event </p></a>
+            <a className="first after fancy" href="#committee" onClick="return false;"><p className="element-big"> Committee </p></a>
+            <a className="first after fancy" href="#faq" onClick="return false;"><p className="element-big"> FAQ </p></a>
+            <a className="first after fancy" href="#sponsors" onClick="return false;"><p className="element-big"> Sponsors </p></a>
+            <a className="first after fancy" href="#register" onClick="return false;"><p className="element-big"> Register </p></a>
         </Overlay>
     </div>
 );

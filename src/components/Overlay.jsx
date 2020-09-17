@@ -25,13 +25,13 @@ const Overlay = (props) => {
             <Animate
                 play={play}
                 start={{
-                    transform: "translateX(20vw) translateY(-10vw)"
+                    transform: "translateX(20vw) translateY(-20vw)"
                 }}
                 end={{
-                    transform: "translateX(-100vw) translateY(-10vw)"
+                    transform: "translateX(-100vw) translateY(-20vw)"
                 }}
             >
-                <div style={{minHeight: "120vh", minWidth: "120vw", backgroundColor: "rgba(0, 0, 0, 0.9)", zIndex: "100", position: "fixed", display: "table"}}>
+                <div style={{minHeight: "120vh", minWidth: "calc(100vw + 60px)", backgroundColor: "rgba(0, 0, 0, 0.9)", zIndex: "100", position: "fixed", display: "table"}}>
                     <div style={{display: "table-cell", verticalAlign: "top", textAlign: "right", padding: "130px 50px 0px 0px"}}>
                         { React.Children.map(props.children, (child => React.cloneElement( child, { onClick: () => setPlay(!play) } ))) }
                     </div>

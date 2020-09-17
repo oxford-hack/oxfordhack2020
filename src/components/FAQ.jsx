@@ -4,15 +4,16 @@ import '../css/FAQ.css';
 import '../css/App.css';
 import ContextAwareToggle from './ContextAwareToggle';
 import twoo_faq from '../media/twoo_faq.webm';
+import {useMediaQuery} from 'react-responsive';
 
 const FAQ = () => {
-    // const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
+    const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
 
     return (
         <div className="container" style={{textJustify: "center"}}>
 
             <div class="row align-items-center justify-content-center">
-                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" defaultActiveKey="0">
+                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" defaultActiveKey="0" style={{marginBottom: "2.5rem"}}>
                   <div className="title">FREQUENTLY ASKED QUESTIONS</div>
                   <Card style={{background:"none", border:"none"}}>
                     <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
@@ -165,7 +166,7 @@ const FAQ = () => {
             </Accordion>
 
             <p className="col-lg-6 col-md-12 order-lg-first order-last" style={{width: '100%'}}>
-                <video autoPlay loop width={'40%'}>
+                <video autoPlay loop width={isDesktop ? '75%' : '40%'}>
                     <source src={twoo_faq}
                                 type="video/webm"/>
                         Sorry, your browser doesn't support embedded videos.

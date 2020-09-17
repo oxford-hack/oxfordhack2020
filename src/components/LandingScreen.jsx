@@ -37,7 +37,6 @@ const LandingScreen = () => {
 
             {/*TODO:why do we only allow this for mobile??*/}
             {!isDesktop && <RegisterButton place="front" />}
-            {!isDesktop && <p style={{marginBlockEnd: "0"}}>Find out more</p>}
             <LandingArrow />
         </div>
     );

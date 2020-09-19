@@ -20,7 +20,7 @@ const RegisterButton = () => {
         {isDesktop ? (
             <a className="first after fancy" href="#" onClick={handleShow} style={{flexShrink: 0, marginRight: "10px"}}><p className="element"> Subscribe for updates! </p></a>
         ) : (
-        <button className="button"  onClick={handleShow}>
+        <button className="button" onClick={handleShow}>
           Subscribe for updates!
         </button>)
 }
@@ -28,7 +28,7 @@ const RegisterButton = () => {
         <Modal show={show} onHide={handleClose} centered dialogClassName="border-radius-2">
           <Modal.Body>
             <Mailchimp
-              action={process.env.REACT_APP_MAILCHIMP_URL}
+              action='https://oxfordhack.us17.list-manage.com/subscribe/post?u=6d21f884b8201af11f1246c51&amp;id=1d61d1ba22'
               fields={[
                   {
                       name: 'EMAIL',

@@ -4,8 +4,8 @@ import Video from './Youtube.jsx';
 
 const About = () => (
     <div className="default">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
+        <div className="container">
+            <div className="row align-items-center justify-content-center">
                 <div className="col-lg-6 col-md-12 order-lg-first order-last">
                 <div className="title">ABOUT OXFORD HACK</div>
                     <p className="main-text">

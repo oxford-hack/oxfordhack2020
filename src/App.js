@@ -10,6 +10,8 @@ import Event from './components/Event';
 import Sponsors from './components/Sponsors';
 import Committee from './components/Committee';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+import SocialPill from './components/SocialPill';
 
 import BackgroundEffect from './components/BackgroundEffect';
 
@@ -61,6 +63,10 @@ const App = () => (
         <div id="sponsors" style={{paddingTop: "15vw"}}><Sponsors /></div>
         </ScrollAnimation>
         <div style={{marginBottom: "5vw"}} />
+        <SocialPill />
+        <div style={{marginBottom: "5vw"}} />
+        <div id="footer" style={{paddingTop: "15vw"}}><Footer /></div>
+
       </div>
     </div>
   </div>

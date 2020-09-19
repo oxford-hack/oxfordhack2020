@@ -11,7 +11,7 @@ const Navbar = () => {
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
     
     return (
-        <div class="navbar" id="myNavbar" className="navbar">
+        <div className="navbar" id="myNavbar">
             {isDesktop ? (<FullHeader />) : (<HamburgerHeader /> )}
         </div>
     );

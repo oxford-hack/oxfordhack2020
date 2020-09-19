@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fbbf6ef8fd91b099ca23870427f95c9",
+    "revision": "09fdbfa3d3a7e8a518502d7b6b1dfc8c",
     "url": "/oxfordhack2020/index.html"
   },
   {
-    "revision": "f734af18ec575bc2d47f",
-    "url": "/oxfordhack2020/static/css/2.da69928d.chunk.css"
+    "revision": "f50838acafa319518c05",
+    "url": "/oxfordhack2020/static/css/2.504f40c9.chunk.css"
   },
   {
-    "revision": "a425709135cfc679f0a1",
-    "url": "/oxfordhack2020/static/css/main.88660e42.chunk.css"
+    "revision": "0a251706ff9d25a90631",
+    "url": "/oxfordhack2020/static/css/main.e3dec71f.chunk.css"
   },
   {
-    "revision": "f734af18ec575bc2d47f",
-    "url": "/oxfordhack2020/static/js/2.6c9163ef.chunk.js"
+    "revision": "f50838acafa319518c05",
+    "url": "/oxfordhack2020/static/js/2.d44a8e0c.chunk.js"
   },
   {
     "revision": "df04310ad48f4f5411320a1942994090",
-    "url": "/oxfordhack2020/static/js/2.6c9163ef.chunk.js.LICENSE.txt"
+    "url": "/oxfordhack2020/static/js/2.d44a8e0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a425709135cfc679f0a1",
-    "url": "/oxfordhack2020/static/js/main.f31ae6f6.chunk.js"
+    "revision": "0a251706ff9d25a90631",
+    "url": "/oxfordhack2020/static/js/main.13f60834.chunk.js"
   },
   {
     "revision": "6d7a1e8888c11288cc20",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d26ddec2a2a21a21414c3ac1b3a92db",
     "url": "/oxfordhack2020/static/media/Alex normal.3d26ddec.JPG"
+  },
+  {
+    "revision": "d58e5ed65babb96558fe2c01ef6531a5",
+    "url": "/oxfordhack2020/static/media/Den_fun.d58e5ed6.jpg"
+  },
+  {
+    "revision": "b3ee270d0b7e63a20d5564a1b73747b3",
+    "url": "/oxfordhack2020/static/media/Den_normal.b3ee270d.jpg"
   },
   {
     "revision": "297fcee3a23ea93cc648fbe4473075a2",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d550b72cae2861844c2a1ed8c42ffd9",
     "url": "/oxfordhack2020/static/media/Sonia2.6d550b72.jpg"
+  },
+  {
+    "revision": "aca02bf363671350725d205871787637",
+    "url": "/oxfordhack2020/static/media/bgskyline.aca02bf3.png"
   },
   {
     "revision": "7b5fedbae47ca41ccfa9f11338dc6a79",

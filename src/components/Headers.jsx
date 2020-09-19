@@ -61,7 +61,7 @@ const HamburgerHeader = () => (
             <a className="first after fancy" href="#committee" onClick="return false;"><p className="element-big"> Committee </p></a>
             <a className="first after fancy" href="#faq" onClick="return false;"><p className="element-big"> FAQ </p></a>
             <a className="first after fancy" href="#sponsors" onClick="return false;"><p className="element-big"> Sponsors </p></a>
-            <a className="first after fancy" href="#register" onClick="return false;"><p className="element-big"> Register </p></a>
+            {/*<a className="first after fancy" href="#register" onClick="return false;"><p className="element-big"> Register </p></a>*/}
         </Overlay>
     </div>
 );

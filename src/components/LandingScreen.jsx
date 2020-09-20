@@ -7,7 +7,7 @@ import {isSafari} from 'react-device-detect';
 import RegisterButton from './RegisterButton';
 import LandingArrow from './LandingArrow';
 
-import landing_video from '../media/twoo-flying.webm';
+import landing_video from '../media/twoo_landing_cropped.webm';
 import landing_video_back from '../media/twoo-flying.gif';
 
 const LandingScreen = () => {

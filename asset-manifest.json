@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/oxfordhack2020/static/css/main.ad7193e4.chunk.css",
-    "main.js": "/oxfordhack2020/static/js/main.a08ee8cf.chunk.js",
-    "main.js.map": "/oxfordhack2020/static/js/main.a08ee8cf.chunk.js.map",
+    "main.css": "/oxfordhack2020/static/css/main.2100e2c5.chunk.css",
+    "main.js": "/oxfordhack2020/static/js/main.86c88b70.chunk.js",
+    "main.js.map": "/oxfordhack2020/static/js/main.86c88b70.chunk.js.map",
     "runtime-main.js": "/oxfordhack2020/static/js/runtime-main.77d8e6f3.js",
     "runtime-main.js.map": "/oxfordhack2020/static/js/runtime-main.77d8e6f3.js.map",
     "static/css/2.da69928d.chunk.css": "/oxfordhack2020/static/css/2.da69928d.chunk.css",
-    "static/js/2.4d859471.chunk.js": "/oxfordhack2020/static/js/2.4d859471.chunk.js",
-    "static/js/2.4d859471.chunk.js.map": "/oxfordhack2020/static/js/2.4d859471.chunk.js.map",
+    "static/js/2.10ba0261.chunk.js": "/oxfordhack2020/static/js/2.10ba0261.chunk.js",
+    "static/js/2.10ba0261.chunk.js.map": "/oxfordhack2020/static/js/2.10ba0261.chunk.js.map",
     "index.html": "/oxfordhack2020/index.html",
-    "precache-manifest.148e1035c9c152b9070f8a8f6fbe8b1e.js": "/oxfordhack2020/precache-manifest.148e1035c9c152b9070f8a8f6fbe8b1e.js",
+    "precache-manifest.5275187d0ced0706a7c3aad0f05e09d3.js": "/oxfordhack2020/precache-manifest.5275187d0ced0706a7c3aad0f05e09d3.js",
     "service-worker.js": "/oxfordhack2020/service-worker.js",
     "static/css/2.da69928d.chunk.css.map": "/oxfordhack2020/static/css/2.da69928d.chunk.css.map",
-    "static/css/main.ad7193e4.chunk.css.map": "/oxfordhack2020/static/css/main.ad7193e4.chunk.css.map",
-    "static/js/2.4d859471.chunk.js.LICENSE.txt": "/oxfordhack2020/static/js/2.4d859471.chunk.js.LICENSE.txt",
+    "static/css/main.2100e2c5.chunk.css.map": "/oxfordhack2020/static/css/main.2100e2c5.chunk.css.map",
+    "static/js/2.10ba0261.chunk.js.LICENSE.txt": "/oxfordhack2020/static/js/2.10ba0261.chunk.js.LICENSE.txt",
     "static/media/Alex haha.JPG": "/oxfordhack2020/static/media/Alex haha.04fefcd9.JPG",
     "static/media/Alex normal.JPG": "/oxfordhack2020/static/media/Alex normal.7f12f863.JPG",
     "static/media/Den_fun.jpg": "/oxfordhack2020/static/media/Den_fun.ed65b37c.jpg",
@@ -28,8 +28,9 @@
     "static/media/Sonia2.jpg": "/oxfordhack2020/static/media/Sonia2.e0740ef3.jpg",
     "static/media/bgskyline.png": "/oxfordhack2020/static/media/bgskyline.aca02bf3.png",
     "static/media/logo.png": "/oxfordhack2020/static/media/logo.7b5fedba.png",
+    "static/media/oxhack-twoo-2020.webm": "/oxfordhack2020/static/media/oxhack-twoo-2020.4fdafe99.webm",
+    "static/media/oxhack-twoo-2020.gif": "/oxfordhack2020/static/media/oxhack-twoo-2020.f4e7a0d7.gif",
     "static/media/twoo-flying.gif": "/oxfordhack2020/static/media/twoo-flying.7213a8da.gif",
-    "static/media/twoo_event_tmp.png": "/oxfordhack2020/static/media/twoo_event_tmp.a53caeb3.png",
     "static/media/twoo_faq.gif": "/oxfordhack2020/static/media/twoo_faq.19762891.gif",
     "static/media/twoo_faq.webm": "/oxfordhack2020/static/media/twoo_faq.72050646.webm",
     "static/media/twoo_landing.webm": "/oxfordhack2020/static/media/twoo_landing.4784ca72.webm"
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.77d8e6f3.js",
     "static/css/2.da69928d.chunk.css",
-    "static/js/2.4d859471.chunk.js",
-    "static/css/main.ad7193e4.chunk.css",
-    "static/js/main.a08ee8cf.chunk.js"
+    "static/js/2.10ba0261.chunk.js",
+    "static/css/main.2100e2c5.chunk.css",
+    "static/js/main.86c88b70.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oxfordhack2020/precache-manifest.148e1035c9c152b9070f8a8f6fbe8b1e.js"
+  "/oxfordhack2020/precache-manifest.5275187d0ced0706a7c3aad0f05e09d3.js"
 );
 
 self.addEventListener('message', (event) => {

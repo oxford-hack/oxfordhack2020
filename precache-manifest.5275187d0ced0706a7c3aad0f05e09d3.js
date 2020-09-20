@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "472c398a43cc5fa42d682ad72c15e169",
+    "revision": "2373a3d7b9658c2e87ae1dc6c6f32cc5",
     "url": "/oxfordhack2020/index.html"
   },
   {
-    "revision": "d76ceb8c7604e8d235f1",
+    "revision": "67a57345b58d04f04e85",
     "url": "/oxfordhack2020/static/css/2.da69928d.chunk.css"
   },
   {
-    "revision": "aae6d1aeb87fac45e590",
-    "url": "/oxfordhack2020/static/css/main.ad7193e4.chunk.css"
+    "revision": "a9405c1b9a249b7ad81e",
+    "url": "/oxfordhack2020/static/css/main.2100e2c5.chunk.css"
   },
   {
-    "revision": "d76ceb8c7604e8d235f1",
-    "url": "/oxfordhack2020/static/js/2.4d859471.chunk.js"
+    "revision": "67a57345b58d04f04e85",
+    "url": "/oxfordhack2020/static/js/2.10ba0261.chunk.js"
   },
   {
     "revision": "03409872514c006d1f265caa561274cc",
-    "url": "/oxfordhack2020/static/js/2.4d859471.chunk.js.LICENSE.txt"
+    "url": "/oxfordhack2020/static/js/2.10ba0261.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aae6d1aeb87fac45e590",
-    "url": "/oxfordhack2020/static/js/main.a08ee8cf.chunk.js"
+    "revision": "a9405c1b9a249b7ad81e",
+    "url": "/oxfordhack2020/static/js/main.86c88b70.chunk.js"
   },
   {
     "revision": "6d7a1e8888c11288cc20",
@@ -84,12 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oxfordhack2020/static/media/logo.7b5fedba.png"
   },
   {
-    "revision": "7213a8da3e0a29c2d67ea7b93921bfdc",
-    "url": "/oxfordhack2020/static/media/twoo-flying.7213a8da.gif"
+    "revision": "4fdafe997af2a99b2e531ca6dc5256dd",
+    "url": "/oxfordhack2020/static/media/oxhack-twoo-2020.4fdafe99.webm"
   },
   {
-    "revision": "a53caeb31440242437dcf2af27846352",
-    "url": "/oxfordhack2020/static/media/twoo_event_tmp.a53caeb3.png"
+    "revision": "f4e7a0d7a4b01271ff14cebabe4d77d7",
+    "url": "/oxfordhack2020/static/media/oxhack-twoo-2020.f4e7a0d7.gif"
+  },
+  {
+    "revision": "7213a8da3e0a29c2d67ea7b93921bfdc",
+    "url": "/oxfordhack2020/static/media/twoo-flying.7213a8da.gif"
   },
   {
     "revision": "19762891d9c07539999bd5f0ba991ac1",

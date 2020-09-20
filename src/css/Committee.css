@@ -12,11 +12,21 @@
     padding: 0 4px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
-.committee-column img {
+.committee-col img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
 
+.committee-col h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.committee-col h5 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}

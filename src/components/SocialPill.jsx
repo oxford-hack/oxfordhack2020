@@ -16,10 +16,10 @@ const SocialPill = () => {
                 <span>Follow us</span>
                 <a className="social-link" href="https://www.facebook.com/oxfordhack2020" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'facebook']} />
-                </a>
+                </a>{/*}
                 <a className="social-link" href="https://medium.com" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'medium']} />
-                </a>
+    </a>*/}
                 <a className="social-link" href="https://www.youtube.com/channel/UCEwhr5k4KNnkKgTEbh62p1Q" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'youtube']} />
                 </a>

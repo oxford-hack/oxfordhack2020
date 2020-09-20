@@ -4,7 +4,10 @@ import '../css/FAQ.css';
 import '../css/App.css';
 import ContextAwareToggle from './ContextAwareToggle';
 import twoo_faq from '../media/twoo_faq.webm';
+import twoo_faq_back from '../media/twoo_faq.gif';
 import {useMediaQuery} from 'react-responsive';
+import {isSafari} from 'react-device-detect';
+
 
 const FAQ = () => {
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
@@ -166,11 +169,18 @@ const FAQ = () => {
             </Accordion>
 
             <p className="col-lg-6 col-md-12 order-lg-first order-last" style={{width: '100%'}}>
-                <video autoPlay loop width={isDesktop ? '75%' : '40%'}>
+              {
+                !isSafari ? (
+                  <video autoPlay loop width={isDesktop ? '75%' : '40%'}>
                     <source src={twoo_faq}
                                 type="video/webm"/>
                         Sorry, your browser doesn't support embedded videos.
                     </video>
+                ) : (
+                  <img src={twoo_faq_back} alt="He's just sittin' there..." style={{width: isDesktop ? '75%' : '40%'}}/>
+                )
+              }
+                
                 </p>
             </div>
         </div>

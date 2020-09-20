@@ -86,9 +86,12 @@ const RegisterButton = () => {
         {isDesktop ? (
             <a className="first after fancy" href="#" onClick={handleShow} style={{flexShrink: 0, marginRight: "10px"}}><p className="element"> Subscribe for updates! </p></a>
         ) : (
-        <button className="button" onClick={handleShow}>
-          Subscribe for updates!
-        </button>)
+        <div>
+            <button className="button" onClick={handleShow}>
+              Subscribe for updates!
+            </button>
+        </div>
+        )
 }
   
         <Modal show={show} onHide={handleClose} centered dialogClassName="border-radius-2" style={{background: "none"}}>

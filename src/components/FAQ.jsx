@@ -16,7 +16,7 @@ const FAQ = () => {
         <div className="container" style={{textJustify: "center"}}>
 
             <div className="row align-items-center justify-content-center">
-                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" defaultActiveKey="0" style={{marginBottom: "2.5rem"}}>
+                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" style={{marginBottom: "2.5rem"}}>
                   <div className="title">FREQUENTLY ASKED QUESTIONS</div>
                   <Card style={{background:"none", border:"none"}}>
                     <Card.Body className="faq-question" style={{background:"none", border: "none"}}>

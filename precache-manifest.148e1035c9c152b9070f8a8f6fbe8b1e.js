@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbab3ce881f117101d523e7c52603a3c",
+    "revision": "472c398a43cc5fa42d682ad72c15e169",
     "url": "/oxfordhack2020/index.html"
   },
   {
-    "revision": "e04678e5606f0e4ba822",
+    "revision": "d76ceb8c7604e8d235f1",
     "url": "/oxfordhack2020/static/css/2.da69928d.chunk.css"
   },
   {
-    "revision": "855e7ca9eaed75958f0e",
-    "url": "/oxfordhack2020/static/css/main.da11f351.chunk.css"
+    "revision": "aae6d1aeb87fac45e590",
+    "url": "/oxfordhack2020/static/css/main.ad7193e4.chunk.css"
   },
   {
-    "revision": "e04678e5606f0e4ba822",
-    "url": "/oxfordhack2020/static/js/2.b3867b68.chunk.js"
+    "revision": "d76ceb8c7604e8d235f1",
+    "url": "/oxfordhack2020/static/js/2.4d859471.chunk.js"
   },
   {
     "revision": "03409872514c006d1f265caa561274cc",
-    "url": "/oxfordhack2020/static/js/2.b3867b68.chunk.js.LICENSE.txt"
+    "url": "/oxfordhack2020/static/js/2.4d859471.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "855e7ca9eaed75958f0e",
-    "url": "/oxfordhack2020/static/js/main.6d55a624.chunk.js"
+    "revision": "aae6d1aeb87fac45e590",
+    "url": "/oxfordhack2020/static/js/main.a08ee8cf.chunk.js"
   },
   {
     "revision": "6d7a1e8888c11288cc20",

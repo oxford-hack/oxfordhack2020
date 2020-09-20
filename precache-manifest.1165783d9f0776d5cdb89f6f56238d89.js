@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47c5035eda5bdf050f1fcd5a30e84f35",
+    "revision": "cbab3ce881f117101d523e7c52603a3c",
     "url": "/oxfordhack2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oxfordhack2020/static/css/2.da69928d.chunk.css"
   },
   {
-    "revision": "665e6a8ecf7afd459e23",
+    "revision": "855e7ca9eaed75958f0e",
     "url": "/oxfordhack2020/static/css/main.da11f351.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oxfordhack2020/static/js/2.b3867b68.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "665e6a8ecf7afd459e23",
-    "url": "/oxfordhack2020/static/js/main.a68ddec7.chunk.js"
+    "revision": "855e7ca9eaed75958f0e",
+    "url": "/oxfordhack2020/static/js/main.6d55a624.chunk.js"
   },
   {
     "revision": "6d7a1e8888c11288cc20",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oxfordhack2020/static/media/twoo_faq.72050646.webm"
   },
   {
-    "revision": "aab01637175d1ce410bd609a7a23bd4c",
-    "url": "/oxfordhack2020/static/media/twoo_landing_cropped.aab01637.webm"
+    "revision": "4784ca721facfff4400d5f7319a6c3cc",
+    "url": "/oxfordhack2020/static/media/twoo_landing.4784ca72.webm"
   }
 ]);

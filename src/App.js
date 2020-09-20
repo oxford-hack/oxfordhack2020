@@ -32,13 +32,13 @@ const App = () => (
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
         <div id="landingscreen"><LandingScreen /></div>
+        <div style={{marginBottom: "20vw"}} />
         </ScrollAnimation>
-        <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
-        <div id="about" style={{paddingTop: "15vw"}}><About /></div>
+        <div id="about" style={{paddingTop: "5vw"}}><About /></div>
+        <div style={{marginBottom: "15vw"}} />
         </ScrollAnimation>
-        <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
         <div id="event" style={{paddingTop: "15vw"}}><Event /></div>
@@ -65,7 +65,7 @@ const App = () => (
         <div style={{marginBottom: "5vw"}} />
         <SocialPill />
         <div style={{marginBottom: "5vw"}} />
-        <div id="footer" style={{paddingTop: "15vw"}}><Footer /></div>
+        <div id="footer" style={{paddingTop: "5vw"}}><Footer /></div>
 
       </div>
     </div>

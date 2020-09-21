@@ -28,9 +28,10 @@ const CustomForm = ({ status, message, onValidated }) => {
         style={{
           borderRadius: 2,
           padding: "10px",
-          display: "inline-block",
+          display: "flex",
           width: "100%",
-          textAlign: "center"
+          textAlign: "center",
+          flexDirection: "column"
         }}
       >
         <div className="field">
@@ -51,9 +52,10 @@ const CustomForm = ({ status, message, onValidated }) => {
             placeholder="Your email"/>
           <div className="line"></div>
         </div>
-        <button className="fancy-button" onClick={submit} style={{marginTop: "20px"}}>
+        <button className="fancy-button" onClick={submit} style={{margin: "20px"}}>
           Subscribe!
         </button>
+        <small style={{color: "white", textAlign: "justify"}}>We use MailChimp as our marketing platform. By clicking subscribe, you acknowledge that your information will be transferred to MailChimp for processing. Learn more about MailChimp's privacy practices <a href="https://mailchimp.com/legal/">here</a>. You can unsubscribe at any time by clicking the link in the footer of our emails. </small>
         {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
         {status === "error" && (
           <div

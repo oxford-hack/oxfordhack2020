@@ -82,61 +82,21 @@ const RegisterButton = () => {
     const handleShow = () => setShow(true);
 
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
-  
+
     return (
-      <>
+      <div>
         {isDesktop ? (
-            <a className="first after fancy" href="#" onClick={handleShow} style={{flexShrink: 0, marginRight: "10px"}}><p className="element"> Subscribe for updates! </p></a>
+            <a className="first" href="https://app.oxfordhack.co.uk" style={{flexShrink: 0, marginRight: "10px", color: "#f3b24f"}}><p className="element"> Register here! </p></a>
         ) : (
         <div>
-            <button className="button" onClick={handleShow}>
-              Subscribe for updates!
-            </button>
+            <a className="button" href="https://app.oxfordhack.co.uk" >
+              Register here!
+            </a>
         </div>
-        )
-}
-  
-        <Modal show={show} onHide={handleClose} centered dialogClassName="border-radius-2" style={{background: "none"}}>
-          <Modal.Body style={{background: "rgba(0.1, 0.1, 0.1, 0.8)"}}>
-            {/*<Mailchimp
-              action='https://oxfordhack.us17.list-manage.com/subscribe/post?u=6d21f884b8201af11f1246c51&amp;id=1d61d1ba22'
-              fields={[
-                  {
-                      name: 'EMAIL',
-                      placeholder: 'Email',
-                      type: 'email',
-                      required: true
-                  }, {
-                      name: 'FNAME',
-                      placeholder: 'First Name',
-                      type: 'text',
-                      required: true
-                  }, {
-                      name: 'LNAME',
-                      placeholder: 'Last Name',
-                      type: 'text',
-                      required: true
-                    }
-              ]}
-              className="mailchimp"
-            />*/}
-
-            <MailchimpSubscribe
-              url={url}
-              render={({ subscribe, status, message }) => (
-                <CustomForm
-                  status={status}
-                  message={message}
-                  onValidated={formData => subscribe(formData)}
-                />
-              )}
-            />
-
-
-          </Modal.Body>
-        </Modal>
-      </>
-    );
+        ) 
+        }
+      </div>
+      );
 }
 
 export default RegisterButton;

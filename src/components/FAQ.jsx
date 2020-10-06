@@ -27,7 +27,7 @@ const FAQ = () => {
                     <Accordion.Collapse eventKey="0">
                       <Card.Body className="main-text">
                         <p>
-                        Oxford Hack is the official Oxford student Hackathon, where over 300 people gather every year to collaborate, innovate, learn and experiment while creating a project from scratch in 24 hours. We give you all the resources you need, from hardware and APIs to workshops, sponsors and volunteers who can help you with whatever questions you might have. In a few words, you attend to have fun, learn things you didn’t even know existed and see your ideas come to life. This year we are moving everything digitally - for more information about what is going to change, check out the Event page.                        </p>
+                        Oxford Hack is the official Oxford student Hackathon, where over 300 people gather every year to collaborate, innovate, learn and experiment while creating a project from scratch in 36 hours. We give you all the resources you need, from hardware and APIs to workshops, sponsors and volunteers who can help you with whatever questions you might have. In a few words, you attend to have fun, learn things you didn’t even know existed and see your ideas come to life. This year we are moving everything digitally - for more information about what is going to change, check out the Event page.                        </p>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -145,7 +145,7 @@ const FAQ = () => {
                     <Accordion.Collapse eventKey="8">
                       <Card.Body className="main-text">
                         <p>
-                        No - because we want our event to be fair, everyone has the same starting line, so all projects have to be created from scratch during the 24 hours of the hackathon.
+                        No - because we want our event to be fair, everyone has the same starting line, so all projects have to be created from scratch during the 36 hours of the hackathon.
                         </p>
                       </Card.Body>
                     </Accordion.Collapse>

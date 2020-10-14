@@ -16,6 +16,14 @@
     color: white;
 }
 
+@media only screen and (min-width: 1224px) {
+.committee-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}
+
 .committee-col img {
     margin-top: 8px;
     vertical-align: middle;
@@ -30,3 +38,14 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
 }
+
+@media only screen and (min-width: 1224px) {
+.sponsors-row img {
+    filter: brightness(70%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.sponsors-row img:hover {
+    filter: brightness(100%);
+}}

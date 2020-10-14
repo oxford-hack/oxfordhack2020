@@ -15,6 +15,7 @@ body {
     max-width: 100%;
     scroll-behavior: smooth;
     z-index: 1;
+    padding-right: 0 !important;
 }
 
 .App {

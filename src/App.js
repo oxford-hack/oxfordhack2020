@@ -8,6 +8,7 @@ import LandingScreen from './components/LandingScreen';
 import About from './components/About';
 import Event from './components/Event';
 import Sponsors from './components/Sponsors';
+import Partners from './components/Partners.jsx';
 import Committee from './components/Committee';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
@@ -61,6 +62,11 @@ const App = () => (
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
         <div id="sponsors" style={{paddingTop: "15vw"}}><Sponsors /></div>
+        </ScrollAnimation>
+        <div style={{marginBottom: "5vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
+        <div id="partners" style={{paddingTop: "150px"}}><Partners /></div>
         </ScrollAnimation>
         <div style={{marginBottom: "5vw"}} />
         <SocialPill />

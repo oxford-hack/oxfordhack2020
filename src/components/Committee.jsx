@@ -22,35 +22,39 @@ const Committee = () => (
     <div>
         <div className="title">MEET THE TEAM</div>
         <div className="committee-row">
-            <div className="committee-col">
-                <Crossfade img1={alexnormal} img2={alexfun}/>
-                <h3>Alexandra Manciu</h3>
-                <h5>HACKATHON DIRECTOR</h5>
+            <div className="committee-sec">
+                <div className="committee-col">
+                    <Crossfade img1={alexnormal} img2={alexfun}/>
+                    <h3>Alexandra Manciu</h3>
+                    <h5>HACKATHON DIRECTOR</h5>
+                </div>
+                <div className="committee-col">
+                    <Crossfade img1={serbinormal} img2={serbifun}/>
+                    <h3>Serban Slincu</h3>
+                    <h5>HACKATHON DIRECTOR</h5>
+                </div>
+                <div className="committee-col">
+                    <Crossfade img1={sonianormal} img2={soniafun}/>
+                    <h3>Sonia Jakubiak</h3>
+                    <h5>SPONSORSHIP DIRECTOR</h5>
+                </div>
             </div>
-            <div className="committee-col">
-                <Crossfade img1={serbinormal} img2={serbifun}/>
-                <h3>Serban Slincu</h3>
-                <h5>HACKATHON DIRECTOR</h5>
-            </div>
-            <div className="committee-col">
-                <Crossfade img1={sonianormal} img2={soniafun}/>
-                <h3>Sonia Jakubiak</h3>
-                <h5>SPONSORSHIP DIRECTOR</h5>
-            </div>
-            <div className="committee-col">
-                <Crossfade img1={jonnynormal} img2={jonnyfun}/>
-                <h3>Jonny Elkin</h3>
-                <h5>MARKETING DIRECTOR</h5>
-            </div>
-            <div className="committee-col">
-                <Crossfade img1={ilianormal} img2={iliafun}/>
-                <h3>Ilia Manolov</h3>
-                <h5>TECHNICAL DIRECTOR</h5>
-            </div>
-            <div className="committee-col">
-                <Crossfade img1={dennormal} img2={denfun}/>
-                <h3>Deniz de Barros</h3>
-                <h5>DESIGN DIRECTOR</h5>
+            <div className="committee-sec">
+                <div className="committee-col">
+                    <Crossfade img1={jonnynormal} img2={jonnyfun}/>
+                    <h3>Jonny Elkin</h3>
+                    <h5>MARKETING DIRECTOR</h5>
+                </div>
+                <div className="committee-col">
+                    <Crossfade img1={ilianormal} img2={iliafun}/>
+                    <h3>Ilia Manolov</h3>
+                    <h5>TECHNICAL DIRECTOR</h5>
+                </div>
+                <div className="committee-col">
+                    <Crossfade img1={dennormal} img2={denfun}/>
+                    <h3>Deniz de Barros</h3>
+                    <h5>DESIGN DIRECTOR</h5>
+                </div>
             </div>
         </div>
     </div>  

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abd4639d1d431e149c1c2f81a4f93083",
+    "revision": "820a65fc241f0961d7a4f397c260da45",
     "url": "/index.html"
   },
   {
-    "revision": "f23d873069bea82b9a6f",
+    "revision": "1a156e89593849ef655e",
     "url": "/static/css/2.da69928d.chunk.css"
   },
   {
-    "revision": "1e586874edbb77b34dfd",
-    "url": "/static/css/main.58e15fd1.chunk.css"
+    "revision": "fbcb502f5651f7a110e0",
+    "url": "/static/css/main.5632ce7d.chunk.css"
   },
   {
-    "revision": "f23d873069bea82b9a6f",
-    "url": "/static/js/2.beb63029.chunk.js"
+    "revision": "1a156e89593849ef655e",
+    "url": "/static/js/2.cb376852.chunk.js"
   },
   {
     "revision": "03409872514c006d1f265caa561274cc",
-    "url": "/static/js/2.beb63029.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cb376852.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e586874edbb77b34dfd",
-    "url": "/static/js/main.b61c828d.chunk.js"
+    "revision": "fbcb502f5651f7a110e0",
+    "url": "/static/js/main.5cfe09c8.chunk.js"
   },
   {
     "revision": "3a7ffe147bc3e9cdb5a1",
@@ -80,6 +80,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bgskyline.aca02bf3.png"
   },
   {
+    "revision": "5c8997cd356bdd03bdce5bfc6bf2fa55",
+    "url": "/static/media/echoAR.5c8997cd.png"
+  },
+  {
+    "revision": "f1c1b375a1bd98b583384da6c8ff9b9b",
+    "url": "/static/media/here.f1c1b375.png"
+  },
+  {
     "revision": "7b5fedbae47ca41ccfa9f11338dc6a79",
     "url": "/static/media/logo.7b5fedba.png"
   },
@@ -90,6 +98,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4e7a0d7a4b01271ff14cebabe4d77d7",
     "url": "/static/media/oxhack-twoo-2020.f4e7a0d7.gif"
+  },
+  {
+    "revision": "bb76c9500a4f4408cb2e6da0e78360fe",
+    "url": "/static/media/oxwocs.bb76c950.png"
+  },
+  {
+    "revision": "bb807d94ad295cc72e5b793d09157bc8",
+    "url": "/static/media/surrey_compsoc.bb807d94.png"
   },
   {
     "revision": "7213a8da3e0a29c2d67ea7b93921bfdc",
@@ -106,5 +122,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4784ca721facfff4400d5f7319a6c3cc",
     "url": "/static/media/twoo_landing.4784ca72.webm"
+  },
+  {
+    "revision": "4c0ae9b906cb009acdf0ca2b72280b06",
+    "url": "/static/media/vmware.4c0ae9b9.png"
   }
 ]);

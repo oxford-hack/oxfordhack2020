@@ -32,6 +32,7 @@ const Sponsors = () => {
     return (
     <div className="default">
         <div className="title">SPONSORS</div>
+        <p className="main-text">Oxford Hack is grateful to be supported by a range of wonderful sponsors. {isDesktop ? "Click" : "Tap"} on their logos to find out more about them! </p>
         <div className="committee-row sponsors-row">
             <button className="committee-col" style={{
                 maxWidth: "400px",
@@ -57,9 +58,6 @@ const Sponsors = () => {
             }}  onClick={handleShowEcho}>
                 <img src={echoAR} style={{padding: "25px", objectFit: "contain"}} alt="EchoAR"/>
             </button>
-        </div>
-        <div style={{textAlign: "center"}}>
-            {isDesktop ? "Click" : "Tap"} on the images to find out more about our sponsors!
         </div>
         <Modal show={showVMWare} onHide={handleCloseVMWare} centered style={{color: "white"}} size="lg">
             <Modal.Body style={{backgroundColor: "rgba(0, 0, 0, 0.9)"}}>

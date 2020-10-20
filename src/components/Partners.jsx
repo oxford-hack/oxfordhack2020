@@ -34,7 +34,7 @@ const Partners = () => {
         <div className="title">FRIENDS OF OXFORD HACK</div>
         <div className="committee-row sponsors-row">
             <button className="committee-col" style={{
-                maxWidth: "400px",
+                maxWidth: "350px",
                 background: "transparent",
                 outline: "none",
                 border: "none"
@@ -42,7 +42,7 @@ const Partners = () => {
                 <img src={oxwocs} style={{padding: "25px", objectFit: "contain"}} alt="OxWoCS"/>
             </button>
             <button className="committee-col" style={{
-                maxWidth: "300px",
+                maxWidth: "250px",
                 background: "transparent",
                 outline: "none",
                 border: "none"
@@ -50,7 +50,7 @@ const Partners = () => {
                 <img src={compsoc} style={{padding: "25px", objectFit: "contain"}} alt="University of Oxford CompSoc"/>
             </button>
             <button className="committee-col" style={{
-                maxWidth: "400px",
+                maxWidth: "350px",
                 background: "transparent",
                 outline: "none",
                 border: "none"

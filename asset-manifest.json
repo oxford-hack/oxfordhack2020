@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fc19d3b.chunk.css",
-    "main.js": "/static/js/main.6b95f9ce.chunk.js",
-    "main.js.map": "/static/js/main.6b95f9ce.chunk.js.map",
+    "main.css": "/static/css/main.d192d4c7.chunk.css",
+    "main.js": "/static/js/main.35c7ef5b.chunk.js",
+    "main.js.map": "/static/js/main.35c7ef5b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97405e67.js",
     "runtime-main.js.map": "/static/js/runtime-main.97405e67.js.map",
     "static/css/2.da69928d.chunk.css": "/static/css/2.da69928d.chunk.css",
-    "static/js/2.98d763cc.chunk.js": "/static/js/2.98d763cc.chunk.js",
-    "static/js/2.98d763cc.chunk.js.map": "/static/js/2.98d763cc.chunk.js.map",
+    "static/js/2.baa043cf.chunk.js": "/static/js/2.baa043cf.chunk.js",
+    "static/js/2.baa043cf.chunk.js.map": "/static/js/2.baa043cf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.34a1a9161c26189a0bdb42ed449d9c10.js": "/precache-manifest.34a1a9161c26189a0bdb42ed449d9c10.js",
+    "precache-manifest.f1ec290e7682f3594112a4d5ad6ed922.js": "/precache-manifest.f1ec290e7682f3594112a4d5ad6ed922.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.da69928d.chunk.css.map": "/static/css/2.da69928d.chunk.css.map",
-    "static/css/main.6fc19d3b.chunk.css.map": "/static/css/main.6fc19d3b.chunk.css.map",
-    "static/js/2.98d763cc.chunk.js.LICENSE.txt": "/static/js/2.98d763cc.chunk.js.LICENSE.txt",
+    "static/css/main.d192d4c7.chunk.css.map": "/static/css/main.d192d4c7.chunk.css.map",
+    "static/js/2.baa043cf.chunk.js.LICENSE.txt": "/static/js/2.baa043cf.chunk.js.LICENSE.txt",
     "static/media/Alex haha.JPG": "/static/media/Alex haha.04fefcd9.JPG",
     "static/media/Alex normal.JPG": "/static/media/Alex normal.7f12f863.JPG",
     "static/media/CompSoc.png": "/static/media/CompSoc.644197b1.png",
@@ -34,6 +34,7 @@
     "static/media/oxhack-twoo-2020.webm": "/static/media/oxhack-twoo-2020.4fdafe99.webm",
     "static/media/oxhack-twoo-2020.gif": "/static/media/oxhack-twoo-2020.f4e7a0d7.gif",
     "static/media/oxwocs.png": "/static/media/oxwocs.bb76c950.png",
+    "static/media/stickermule.png": "/static/media/stickermule.037f4766.png",
     "static/media/surrey_compsoc.png": "/static/media/surrey_compsoc.bb807d94.png",
     "static/media/twoo-flying.gif": "/static/media/twoo-flying.7213a8da.gif",
     "static/media/twoo_faq.gif": "/static/media/twoo_faq.19762891.gif",
@@ -44,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.97405e67.js",
     "static/css/2.da69928d.chunk.css",
-    "static/js/2.98d763cc.chunk.js",
-    "static/css/main.6fc19d3b.chunk.css",
-    "static/js/main.6b95f9ce.chunk.js"
+    "static/js/2.baa043cf.chunk.js",
+    "static/css/main.d192d4c7.chunk.css",
+    "static/js/main.35c7ef5b.chunk.js"
   ]
 }

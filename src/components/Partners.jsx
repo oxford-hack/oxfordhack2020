@@ -10,6 +10,8 @@ import '../css/Committee.css';
 import oxwocs from '../media/oxwocs.png';
 import surrey_compsoc from '../media/surrey_compsoc.png';
 import compsoc from '../media/CompSoc.png';
+import stickermule from '../media/sponsors/stickermule.png';
+
 
 const Partners = () => {
     const [showOxwocs, setShowOxwocs] = useState(false);
@@ -57,6 +59,14 @@ const Partners = () => {
             }}  onClick={handleShowSurrey}>
                 <img src={surrey_compsoc} style={{padding: "25px", objectFit: "contain"}} alt="University of Surrey CompSoc"/>
             </button>
+            <a className="committee-col" style={{
+                maxWidth: "400px",
+                background: "transparent",
+                outline: "none",
+                border: "none"
+            }}  href="http://hackp.ac/mlh-stickermule-hackathons">
+                <img src={stickermule} style={{padding: "25px", objectFit: "contain", filter: "brightness(100%)"}} alt="Sticker Mule"/>
+            </a>
         </div>
         <div style={{textAlign: "center"}}>
             {isDesktop ? "Click" : "Tap"} on the images to find out more about our partners!

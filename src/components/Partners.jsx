@@ -9,6 +9,7 @@ import '../css/Committee.css';
 
 import oxwocs from '../media/oxwocs.png';
 import surrey_compsoc from '../media/surrey_compsoc.png';
+import compsoc from '../media/CompSoc.png';
 
 const Partners = () => {
     const [showOxwocs, setShowOxwocs] = useState(false);
@@ -20,6 +21,11 @@ const Partners = () => {
 
     const handleCloseSurrey = () => setShowSurrey(false);
     const handleShowSurrey = () => setShowSurrey(true);
+
+    const [showCompSoc, setShowCompSoc] = useState(false);
+
+    const handleCloseCompSoc = () => setShowCompSoc(false);
+    const handleShowCompSoc = () => setShowCompSoc(true);
 
     const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
 
@@ -33,7 +39,15 @@ const Partners = () => {
                 outline: "none",
                 border: "none"
             }}  onClick={handleShowOxwocs}>
-                <img src={oxwocs} style={{padding: "25px", objectFit: "contain"}} alt="VMWare"/>
+                <img src={oxwocs} style={{padding: "25px", objectFit: "contain"}} alt="OxWoCS"/>
+            </button>
+            <button className="committee-col" style={{
+                maxWidth: "300px",
+                background: "transparent",
+                outline: "none",
+                border: "none"
+            }}  onClick={handleShowCompSoc}>
+                <img src={compsoc} style={{padding: "25px", objectFit: "contain"}} alt="University of Oxford CompSoc"/>
             </button>
             <button className="committee-col" style={{
                 maxWidth: "400px",
@@ -41,7 +55,7 @@ const Partners = () => {
                 outline: "none",
                 border: "none"
             }}  onClick={handleShowSurrey}>
-                <img src={surrey_compsoc} style={{padding: "25px", objectFit: "contain"}} alt="Here"/>
+                <img src={surrey_compsoc} style={{padding: "25px", objectFit: "contain"}} alt="University of Surrey CompSoc"/>
             </button>
         </div>
         <div style={{textAlign: "center"}}>
@@ -72,6 +86,20 @@ const Partners = () => {
                         <Col style={{textAlign: "right", textAlignLast: "right", marginTop: "auto", marginBottom: "auto"}}>
                         The University of Surrey Computing Society (CompSoc) is the official Computer Science society of the University of Surrey Students' Union, the official departmental Society of the Department of Computer Science at the University of Surrey, and the official Guildford student chapter of the British Computing Society.
 
+                        </Col>
+                    </Row>
+                </Container>
+            </Modal.Body>
+        </Modal>
+        <Modal show={showCompSoc} onHide={handleCloseCompSoc} centered style={{color: "white"}} size="lg">
+            <Modal.Body style={{backgroundColor: "rgba(0, 0, 0, 0.9)"}}>
+                <Container fluid>
+                    <Row>
+                        <Col className="d-flex flex-wrap align-items-center" style={{padding: "25px"}}>
+                            <img src={compsoc} className="img-fluid" style={{minWidth: "250px", maxWidth: "350px"}} alt="Oxford University CompSoc"/>
+                        </Col>
+                        <Col style={{textAlign: "right", textAlignLast: "right", marginTop: "auto", marginBottom: "auto"}}>
+                        The Oxford University Computer Society (CompSoc) exists to promote the use of computers and other technology among members of the university. We welcome everyone into our society and host informative tech talks, as well as weekly social events.
                         </Col>
                     </Row>
                 </Container>

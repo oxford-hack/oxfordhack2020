@@ -9,6 +9,7 @@ import '../css/Committee.css';
 import vmware from '../media/sponsors/vmware.png';
 import here from '../media/sponsors/here.png';
 import echoAR from '../media/sponsors/echoAR.png';
+import mathworks from '../media/sponsors/mathworks_logo.png';
 
 
 const Sponsors = () => {
@@ -52,12 +53,22 @@ const Sponsors = () => {
             </button>
             <button className="committee-col" style={{
                 maxWidth: "400px",
+                minHeight: "200px",
                 background: "transparent",
                 outline: "none",
                 border: "none"
             }}  onClick={handleShowEcho}>
                 <img src={echoAR} style={{padding: "25px", objectFit: "contain"}} alt="EchoAR"/>
             </button>
+            <a className="committee-col" style={{
+                maxWidth: "400px",
+                minHeight: "200px",
+                background: "transparent",
+                outline: "none",
+                border: "none"
+            }}  href="https://www.mathworks.com/">
+                <img src={mathworks} style={{padding: "25px", objectFit: "contain"}} alt="MathWorks"/>
+            </a>
         </div>
         <Modal show={showVMWare} onHide={handleCloseVMWare} centered style={{color: "white"}} size="lg">
             <Modal.Body style={{backgroundColor: "rgba(0, 0, 0, 0.9)"}}>

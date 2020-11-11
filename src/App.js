@@ -13,10 +13,11 @@ import Committee from './components/Committee';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import SocialPill from './components/SocialPill';
+import Schedule from './components/Schedule';
+import Challenges from './components/Challenges';
 
 import BackgroundEffect from './components/BackgroundEffect';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.min.css";
 
 /*
@@ -47,6 +48,13 @@ const App = () => (
         <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'
           animateOut='animate__fadeOut'>
+        <div id="schedule" style={{paddingTop: "10vw"}}><Schedule /></div>
+        </ScrollAnimation>
+        <div style={{marginBottom: "5vw"}} />
+        <ScrollAnimation animateIn='animate__fadeIn'
+          animateOut='animate__fadeOut'>
+        <div id="challenges" style={{paddingTop: "10vw"}}><Challenges /></div>
+
         </ScrollAnimation>
         <div style={{marginBottom: "5vw"}} />
         <ScrollAnimation animateIn='animate__fadeIn'

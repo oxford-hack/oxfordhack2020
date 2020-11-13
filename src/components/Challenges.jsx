@@ -90,7 +90,7 @@ const Challenges = () => {
             <Container fluid>
                 <Row className="p-5">
                     <Col lg={4} xs={12} className="ml-auto mr-auto order-lg-2">
-                        <Image src={mathworks} style={{margin: "20px 0"}} alt="MathWorks" fluid/>
+                        <Image src={mathworks} style={{margin: "20px 0"}} alt="MATHWORKS" fluid/>
                     </Col>
                     <Col lg={6} xs={12} className="align-self-center order-lg-1">
                         <p className="main-text">
@@ -98,7 +98,7 @@ const Challenges = () => {
                             {/*<em>Awards:</em> £150 allocated for prizes per team member*/}
                         </p>
                         <p className="main-text">
-                            <em>Topic 2:</em> "Best Use of MatLab" <br/>
+                            <em>Topic 2:</em> "Best Use of MATHLAB " <br/>
                             {/*<em>Awards:</em> £50 amazon vouchers*/}
                         </p>
                     </Col>

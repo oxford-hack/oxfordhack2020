@@ -67,7 +67,7 @@ const Sponsors = () => {
                 outline: "none",
                 border: "none"
             }}  href="https://www.mathworks.com/">
-                <img src={mathworks} style={{padding: "25px", objectFit: "contain"}} alt="MathWorks"/>
+                <img src={mathworks} style={{padding: "25px", objectFit: "contain"}} alt="MATHWORKS "/>
             </a>
         </div>
         <Modal show={showVMWare} onHide={handleCloseVMWare} centered style={{color: "white"}} size="lg">

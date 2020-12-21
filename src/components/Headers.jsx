@@ -20,7 +20,7 @@ const FullHeader = () => (
             <a className="first after fancy" href="#faq" onClick={() => false}><p className="element"> FAQ </p></a>
             <a className="first after fancy" href="#committee" onClick={() => false}><p className="element"> Committee </p></a>
             <a className="first after fancy" href="#sponsors" onClick={() => false}><p className="element"> Sponsors </p></a>
-            <RegisterButton />
+            {/*<RegisterButton />*/}
             <a id="mlh-trust-badge" style={{
                 maxWidth: '100px',
                 minWidth: '60px',

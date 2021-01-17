@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
 import {useAccordionToggle} from 'react-bootstrap';
 import AccordionContext from 'react-bootstrap/AccordionContext';
-import '../css/ContextAwareToggle.css'
+import '../css/ContextAwareToggle.css';
 
-const ContextAwareToggle = ({ children, eventKey, text}) => {
+const ContextAwareToggle = ({children, eventKey}) => {
   const currentEventKey = useContext(AccordionContext);
 
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
@@ -13,12 +13,12 @@ const ContextAwareToggle = ({ children, eventKey, text}) => {
   const isCurrentEventKey = currentEventKey === eventKey;
   const nestedText = (React.Children.toArray(children)[0]).props.children;
 
-  console.log(nestedText)
+  console.log(nestedText);
 
   return (
     <button
-      style = {{outline: "none"}}
-      className = {isCurrentEventKey ? "pressed" : "notPressed"}
+      style = {{outline: 'none'}}
+      className = {isCurrentEventKey ? 'pressed' : 'notPressed'}
       type="button"
       onClick={decoratedOnClick}
     >

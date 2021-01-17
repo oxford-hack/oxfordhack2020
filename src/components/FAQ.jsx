@@ -1,25 +1,26 @@
+/* eslint-disable max-len */
 import React from 'react';
 import {Accordion, Card} from 'react-bootstrap';
 import '../css/FAQ.css';
 import '../css/App.css';
 import ContextAwareToggle from './ContextAwareToggle';
-import twoo_faq from '../media/twoo_faq.webm';
-import twoo_faq_back from '../media/twoo_faq.gif';
+import twooFaq from '../media/twoo_faq.webm';
+import twooFaqBack from '../media/twoo_faq.gif';
 import {useMediaQuery} from 'react-responsive';
 import {isSafari} from 'react-device-detect';
 
 
 const FAQ = () => {
-    const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
+    const isDesktop = !useMediaQuery({query: '(max-width: 1224px)'});
 
     return (
-        <div className="container" style={{textJustify: "center"}}>
+        <div className="container" style={{textJustify: 'center'}}>
 
             <div className="row align-items-center justify-content-center">
-                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" style={{marginBottom: "2.5rem"}}>
+                 <Accordion className="default col-lg-6 col-md-12 order-lg-first order-last" style={{marginBottom: '2.5rem'}}>
                   <div className="title">FREQUENTLY ASKED QUESTIONS</div>
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="0">
                         <p>What is Oxford Hack?</p>
                       </ContextAwareToggle>
@@ -32,8 +33,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="1">
                         <p>What is a digital Oxford Hack going to look like?</p>
                       </ContextAwareToggle>
@@ -46,8 +47,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="2">
                         <p>What makes Oxford Hack special?</p>
                       </ContextAwareToggle>
@@ -61,8 +62,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="3">
                         <p>Can I participate in Oxford Hack?</p>
                       </ContextAwareToggle>
@@ -76,8 +77,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="4">
                         <p>Do I need to have a team beforehand?</p>
                       </ContextAwareToggle>
@@ -91,8 +92,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="5">
                         <p>Do I need to pay to participate?</p>
                       </ContextAwareToggle>
@@ -106,8 +107,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="6">
                         <p>What do I need to have to participate?</p>
                       </ContextAwareToggle>
@@ -121,8 +122,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="7">
                         <p>How many people can be in a team?</p>
                       </ContextAwareToggle>
@@ -136,8 +137,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="8">
                         <p>Can I start working on my project before the event?</p>
                       </ContextAwareToggle>
@@ -151,8 +152,8 @@ const FAQ = () => {
                     </Accordion.Collapse>
                   </Card>
 
-                  <Card style={{background:"none", border:"none"}}>
-                    <Card.Body className="faq-question" style={{background:"none", border: "none"}}>
+                  <Card style={{background: 'none', border: 'none'}}>
+                    <Card.Body className="faq-question" style={{background: 'none', border: 'none'}}>
                       <ContextAwareToggle eventKey="9">
                         <p>Error 404 question not found</p>
                       </ContextAwareToggle>
@@ -172,20 +173,19 @@ const FAQ = () => {
               {
                 !isSafari ? (
                   <video autoPlay loop width={isDesktop ? '75%' : '40%'}>
-                    <source src={twoo_faq}
+                    <source src={twooFaq}
                                 type="video/webm"/>
-                        Sorry, your browser doesn't support embedded videos.
+                        Sorry, your browser doesn&apos;t support embedded videos.
                     </video>
                 ) : (
-                  <img src={twoo_faq_back} alt="He's just sittin' there..." style={{width: isDesktop ? '75%' : '40%'}}/>
+                  <img src={twooFaqBack} alt="He's just sittin' there..." style={{width: isDesktop ? '75%' : '40%'}}/>
                 )
               }
-                
+
                 </p>
             </div>
         </div>
-    )
-
-}
+    );
+};
 
 export default FAQ;

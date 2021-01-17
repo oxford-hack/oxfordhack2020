@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../css/TimeTable.css';
-import '../css/App.css'
+import '../css/App.css';
 
 const TimeTable = () => (
     <div className="default">

@@ -1,18 +1,18 @@
+/* eslint-disable max-len */
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 
 import '../css/SocialPill.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useMediaQuery } from 'react-responsive';
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {useMediaQuery} from 'react-responsive';
 
 
 const SocialPill = () => {
-
-    const isDesktop = !useMediaQuery({ query: '(max-width: 1224px)' });
+    const isDesktop = !useMediaQuery({query: '(max-width: 1224px)'});
 
     return (
-        <div style={!isDesktop ? { position: "absolute", left: "50%", transform: "translateX(-50%)" } : {}} >
-            <div className="hover social" style={!isDesktop ? { position: "unset" }: {}} >
+        <div style={!isDesktop ? {position: 'absolute', left: '50%', transform: 'translateX(-50%)'} : {}} >
+            <div className="hover social" style={!isDesktop ? {position: 'unset'}: {}} >
                 <span>Follow us</span>
                 <a className="social-link" href="https://www.facebook.com/oxfordhack2020" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'facebook']} />
@@ -27,7 +27,7 @@ const SocialPill = () => {
         </div>
 
     );
-}
+};
 
 
 export default SocialPill;

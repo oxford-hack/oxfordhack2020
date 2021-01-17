@@ -1,5 +1,5 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss';
+import {createUseStyles} from 'react-jss';
 
 const useStyles = createUseStyles({
     wrapper: {
@@ -19,13 +19,18 @@ const useStyles = createUseStyles({
 });
 
 export const Video = (props) => {
-    const { src, title } = props;
+    const {src, title} = props;
     const classes = useStyles();
 
     return (
-        <div style={{padding: "40px"}}>
+        <div style={{padding: '40px'}}>
             <div className={classes.wrapper}>
-                <iframe className={classes.iframe} src={src} title={title} allowFullScreen />
+                <iframe
+                    className={classes.iframe}
+                    src={src}
+                    title={title}
+                    allowFullScreen
+                />
             </div>
         </div>
     );

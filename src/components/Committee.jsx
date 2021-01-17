@@ -57,7 +57,7 @@ const Committee = () => (
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 );
 
 
